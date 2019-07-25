@@ -7,10 +7,12 @@ edition = "2018"
 [[bin]]
 name = "abi_gen"
 path = "abi-gen/main.rs"
+doc = false
 
 [[bin]]
 name = "meta_gen"
 path = "meta-gen/main.rs"
+doc = false
 
 [dependencies]
 contract = { path = ".." }
