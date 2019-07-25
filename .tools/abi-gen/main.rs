@@ -2,5 +2,5 @@
 // It is used by the cargo plugin in order to create ABI files.
 
 fn main() {
-	println!("{}", contract::generate_abi())
+	println!("ABI {}", contract::generate_abi())
 }

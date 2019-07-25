@@ -1,12 +1,16 @@
 [package]
-name = "abi-gen"
+name = "tools"
 version = "0.1.0"
 authors = ["Robin Freyler <robin.freyler@gmail.com>"]
 edition = "2018"
 
 [[bin]]
 name = "abi_gen"
-path = "main.rs"
+path = "abi-gen/main.rs"
+
+[[bin]]
+name = "meta_gen"
+path = "meta-gen/main.rs"
 
 [dependencies]
 contract = { path = ".." }

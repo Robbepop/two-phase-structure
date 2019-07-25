@@ -17,5 +17,5 @@ crate-type = [
 
 [workspace]
 members = [
-	"abi-gen"
+	".tools"
 ]
