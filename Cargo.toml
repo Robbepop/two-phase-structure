@@ -19,3 +19,9 @@ crate-type = [
 members = [
 	".tools"
 ]
+
+[profile.release]
+panic = "abort"
+lto = true
+opt-level = "z"
+# debug = true
