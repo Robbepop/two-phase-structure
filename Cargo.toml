@@ -1,0 +1,21 @@
+[package]
+name = "contract"
+version = "0.1.0"
+authors = ["Robin Freyler <robin.freyler@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "contract"
+crate-type = [
+	# Used for normal contract Wasm blobs.
+	"cdylib",
+	# Used for ABI generation.
+	"rlib",
+]
+
+[dependencies]
+
+[workspace]
+members = [
+	"abi-gen"
+]
